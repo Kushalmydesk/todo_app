@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Form from './components/Form'
-import styles from '../styles/app.module.css';
+import styles from '../styles/app.module.css'
 
 
 export default function Home() {
