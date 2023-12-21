@@ -3,7 +3,7 @@ import Form from './components/Form'
 import styles from '../styles/app.module.css'
 
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.App}>
       <Head>
@@ -18,3 +18,6 @@ export default function Home() {
     </div>
   )
 }
+
+
+export default Home;
